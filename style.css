@@ -1,0 +1,436 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+   background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 30px;
+    align-items: center;
+}
+.brand{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.brand span{
+    color: #3F73F1;
+}
+header p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.f-switch{
+    display: flex;
+    align-items: center;
+}
+
+
+main{
+    padding: 30px;
+    display: flex;
+    gap: 14px;
+    background-color: #F5F8FF;
+    justify-content: center;
+}
+section{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px;
+}
+.box-1 h2{
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+}
+.no{
+    background-color: #3F73F1;
+    aspect-ratio: 1;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.numbering{
+    display: flex;
+    gap: 10px;
+}
+
+.box-1 p
+.box-2 p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 0.9;
+}
+.box-1 h3,
+.box-2 h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.f1 input{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 7px;
+    border: 1.5px solid #3F73F1;
+    font-size: 12px;
+    margin: 10px 0;
+}
+select{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 7px;
+    border: 1.5px solid #3F73F1;
+    font-size: 12px;
+    margin: 10px 0;
+}
+.r2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0;
+}
+.radio{
+    width: 100%;
+    padding: 7px 5px;
+    border-radius: 7px;
+    border: 1.5px solid #3F73F1;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.gen-b{
+    width: 100%;
+    padding: 10px;
+    background-color: #3F73F1;
+    border: none;
+    border-radius: 7px;
+    margin: 10px 0 20px 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+.but-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.but-3 button{
+    display: flex;
+    border: 1px solid #3F73F1;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.head-2{
+    display: flex;
+}
+.QR-bar{
+    width: 100%;
+    min-height: 280px;
+    background-color: #F5F8FF;
+    border: 1px dashed #3F73F1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.but-4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 1.5px solid #3F73F1;
+    padding: 7px;
+    border-radius: 7px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.but-4 div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.but-4 h4{
+    font-size: 14px;
+    font-weight: 700;
+}
+.but-4 p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.last-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.last-b .one{
+    display: flex;
+    border: 1px solid #3F73F1;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-b .two{
+    display: flex;
+    background-color: #3F73F1;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+}
+@media (max-width: 768px) {
+    /* Mobile styles */
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-switch {
+        display: none;
+    }
+    header h1{
+        font-size: 24px;
+        line-height: 0.9;
+        font-weight: 600;
+    }
+    header p{
+    font-size: 12px;
+    font-weight: 600;
+    }
+    header h1,
+    header p{
+        text-align: center;
+    }
+    
+header{
+   background-color: #FFFFFF;
+    /*display: flex;
+    justify-content: space-between;*/
+    color: black;
+    padding: 10px;
+    /*align-items: center;*/
+}
+/*.brand{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}*/
+.brand span{
+    color: #3F73F1;
+}
+
+/*main{
+    padding: 30px;
+    display: flex;
+    gap: 14px;
+    background-color: #F5F8FF;
+    justify-content: center;
+}*/
+section{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+}
+.box-1 h2{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+}
+.no{
+    background-color: #3F73F1;
+    aspect-ratio: 1;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.numbering{
+    display: flex;
+    gap: 10px;
+}
+
+.box-1 p,
+.box-2 p{
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+}
+.box-1 h3,
+.box-2 h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+.f1 input{
+    width: 100%;
+    padding: 7px 4px;
+    border-radius: 7px;
+    border: 1.5px solid #3F73F1;
+    font-size: 8px;
+    margin: 10px 0;
+}
+select{
+    width: 100%;
+    padding: 7px 4px;
+    border-radius: 7px;
+    border: 1.5px solid #3F73F1;
+    font-size: 8px;
+    margin: 10px 0;
+}
+.r2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0;
+}
+.radio{
+    width: 100%;
+    padding: 7px 4px;
+    border-radius: 7px;
+    border: 1.5px solid #3F73F1;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.gen-b{
+    width: 100%;
+    padding: 10px;
+    background-color: #3F73F1;
+    border: none;
+    border-radius: 7px;
+    margin: 10px 0 20px 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+.but-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.but-3 button{
+    display: flex;
+    border: 1px solid #3F73F1;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.head-2{
+    display: flex;
+}
+.QR-bar{
+    width: 100%;
+    min-height: 280px;
+    background-color: #F5F8FF;
+    border: 1px dashed #3F73F1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.but-4{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 1.5px solid #3F73F1;
+    padding: 7px;
+    border-radius: 7px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.but-4 div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.but-4 h4{
+    font-size: 8px;
+    font-weight: 700;
+}
+.but-4 p{
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+.last-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.last-b .one{
+    display: flex;
+    border: 1px solid #3F73F1;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-b .two{
+    display: flex;
+    background-color: #3F73F1;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+}
+
+}

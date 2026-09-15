@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Barcode Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode/dist/JsBarcode.all.min.js" defer></script>
+<script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+      <div class="brand">
+            <!--<div class="barcode">
+                <img src="barcode.png" alt="logo">
+            </div>-->
+            <div>
+                <h1>Barcode <span>Generator</span></h1>
+                <p>Create professional barcodes in seconds</p>
+            </div>
+        </div>
+        <div class="f-switch">
+            <div>
+                <p>Fast • simple • Free</p>
+            </div>
+            <div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="box-1">
+            <div>
+                <div class="numbering">
+                    <div class="no">
+                        <h2>1</h2>
+                        </div>
+                    <div>
+                    <h3>Enter Data</h3>
+                    <p>Type the text or number you want to encode in the barcode</p>
+                    </div>
+                </div>
+                <div class="f1">
+                    <input id="input" placeholder="Type your data here.....">
+                </div>
+            </div>
+            <div>
+                <div class="numbering">
+                    <div class="no">
+                        <h2>2</h2>
+                        </div>
+                    <div>
+                    <h3>Choose barcode format</h3>
+                    <p>Select the type of barcode you want to generate</p>
+                    </div>
+                </div>
+                <div>
+                    <select id="options">
+                       <!--<option value="">Select</option>-->
+                        <option value="CODE128">CODE128</option>
+                        <option value="EAN13">EAN-13</option>
+                        <option value="EAN8">EAN-8</option>
+                        <option value="UPC">UPC</option>
+                        <option value="CODE39">CODE39</option>
+                        <option value="ITF14">ITF-14</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div class="numbering">
+                    <div class="no">
+                        <h2>3</h2>
+                        </div>
+                    <div>
+                    <h3>Option</h3>
+                    <p>Type the text or number you want to encode in the barcode</p>
+                    </div>
+                </div>
+                <div class="r2">
+                    <div class="radio">
+                    <input type="checkbox" name="option" id="showText">
+                    Show text (number below barcode)
+                    </div>
+                    <div class="radio">
+                    <input type="checkbox" name="option" id="highQuality">
+                    High quality (better for printing)
+                    </div>
+                </div>
+            </div>
+            <button class="gen-b" id="generate">Generate Barcode</button>
+            <div class="but-3">
+                <button class="copy">
+                    <p>Copy</p>
+                </button>
+                <button class="download">
+                     <p>Download</p>
+                </button>
+                <button class="share">
+                     <p>Share</p>
+                </button>
+            </div>
+        </section>
+        <section class="box-2">
+            <div class="head-2">
+                <div>
+                <img src="" alt="">
+                </div>
+                <div>
+                <h3>Your Barcode</h3>
+                <p>Here's your generated barcode, you can download or copy it</p>
+                </div>
+            </div>
+            <div class="QR-bar">
+                <svg id="barcode"></svg>
+            </div>
+            <div class="but-4">
+                <div>
+                    <h4>Format:</h4>
+                    <p id="form">CODE128</p>
+                </div>
+                <div>
+                    <h4>Data:</h4>
+                    <p id="inp">1234567890</p>
+                </div>
+            </div>
+                <div class="last-b">
+                    <button class="one copy">
+                        <p>Copy image</p>
+                    </button>
+                    <button class="two download">
+                        <p>Download</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
